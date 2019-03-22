@@ -1,5 +1,7 @@
 public class Msg{
 	public static void main(String[] args){
-		System.out.println("Message printed to console");
+		for(int i=0;i<5;i++){
+			System.out.println("Message printed to console for "+(i+1));
+		}	
 	}
 }
